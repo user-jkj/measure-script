@@ -4,10 +4,7 @@
 URL=http://127.0.0.1/target/1M.dat
 FILE=resolt/data_variation_1M.dat
 
-# resoltディレクトリを作成
 mkdir -p resolt
-
-# ファイルの初期化
 rm -f ${FILE}
 
 for i in $(seq 1000)
